@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_tab"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/home_one"
+                android:layout_width="@dimen/main_tab"
+                android:layout_height="@dimen/main_tab"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/home_one"
+                />
+
+            <RadioButton
+                android:id="@+id/home_reading"
+                android:layout_width="@dimen/main_tab"
+                android:layout_height="@dimen/main_tab"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/home_reading"
+                />
+
+            <RadioButton
+                android:id="@+id/home_music"
+                android:layout_width="@dimen/main_tab"
+                android:layout_height="@dimen/main_tab"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/home_music"
+                />
+
+            <RadioButton
+                android:id="@+id/home_movie"
+                android:layout_width="@dimen/main_tab"
+                android:layout_height="@dimen/main_tab"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/home_movie"
+                />
+        </RadioGroup>
+    </RelativeLayout>
+</layout>
+

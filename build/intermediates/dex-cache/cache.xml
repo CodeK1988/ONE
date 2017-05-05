@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_634f90c145dc677668533453fbe3d3fc3037be80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.annotation/10.0-b28/30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba/javax.annotation-10.0-b28.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.annotation-10.0-b28_e5bee6f7e2783b093f1d90f902864afa42d21041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_190d863f94372fcd4e8c1658c7535756329f2e00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_62ce2588a6bd7e38e247ae9a9c03cc5443785bbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/swplzj/work/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_993ce7741dcfcd17897fb21427c461e4f7b95d7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions/rxpermissions/0.9.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38115c69562d4087564afb177e2a971aa95a1a46">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.tbruyelle.rxpermissions-rxpermissions-0.9.1_79708f9a4ebaeeeefe4c69573bf57b5f333b8a75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="623adbb791dc3bfc5c560bdf2600a75e14e4c0cc">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_ca0614eecc549019bcb655d697f421ae2dce1491/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_b0d0e58c7d3fff11a38d7d8511c608b04e130fdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="87ac447a67b050a25a4c9611a254f042166df9f2">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-scalars-2.1.0_25f276f0077f33ba1434a61e83ef00e3b3d845ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_bf62a8334271d92e9d5a55df448f2a0dfa1f605a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-0.4.0_8e680b130e5ef485123fe447de44cfb684bf41ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5057da8784add87b73f90d225ed1cdbbcf41a29">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_e59d40c5919707455abfa9e0b10a267f99e8d159/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-producers/2.7/109b30d9c44c037e3bee87e85564fd604a7d432f/dagger-producers-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="109b30d9c44c037e3bee87e85564fd604a7d432f">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-producers-2.7_62fb4e81c46187ebd5f5032856a9d630e81316f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_0339667da3fdc779099ca2fc32f7277a3ed721c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="263a46be4d351669c143d7b40e75b6e86a736248">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_9a8d631a750e50dbfad4611e3143742902bdd318/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding-appcompat-v7/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea3c0edbda1279bc261187fb3b6f874bfc841f4">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-appcompat-v7-0.4.0_45da426db5bc58012fa310bb1fbe6ef114d31a84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_51f06665fc245e3736d1a33b5397e9c5f7d5d1bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc317919fc29ffa6c8e775893bb006dc821bf5b4">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_0e54c705821cd0f61a06b991138ab057977d5f99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_4ab4ee8b2987c28f3c5c3a1e36913ed8c241b08e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_6cf45bc3463916ab084e46c6ce66caa7e005b028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="32e12e6cab98b4c8d59fafe3abee510dc9d6192b">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_d99842491097413e3104bef43dd4f8db155f5078/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2417d491a6fa87a0e74909e1d6c57a60a7658887">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_20d50577697e4a9133351322e2c38c84a97feaf0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_7f92acf898a56244b82528df7d4704218b8521ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-compiler/2.7/65aa7daec6dd64bf4f3208b268c38c6a4fb2b849/dagger-compiler-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65aa7daec6dd64bf4f3208b268c38c6a4fb2b849">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-compiler-2.7_c27a9b01ec9d7b18dafc28d184ae05597bd3ace9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_41dc7fc35166e561825ef5af23d410ed3def4ffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_3e5f7f03091f70ea7404c0203c7e22f80212bb68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7646abf77de670f3babe2179517d6dac706f21f4">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.1_b5f627d500782f142e9702b06d4d08f35698eae0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7ccd7efa751d8fca02ac86c9723b881b2992e12">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_95038a2ca474fef1706108ee1b46edc5968be985/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea40cb33a82d58316990e20122606d6b4ca60597">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_93a261d163b003786773633bcb2e6a77505e35a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.7/f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb/dagger-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.7_421ded2752041ba0b3e063cf9fba86738c711826/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.3/baseLibrary-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cb654c01ce17fe865fe1bcf4aaf2f33bc770921">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_292e1d70adb6b4e29cbd79be9fea824731be9a39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_3f6eedb590271f37ad0edaf8992efacee2c34b68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-19.0_545dd116466af3cf639d9dd76c7a6e3775df0d2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.3/7fe1a94c1aeb958acc876fe616922cc191f3222c/rxjava-1.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7fe1a94c1aeb958acc876fe616922cc191f3222c">
+        <dex dex="/Users/swplzj/Desktop/demo/MVP/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.2.3_a332feb84570c823bc7d70ab45a2ba1844077eac/classes.dex" />
+    </item>
+
+</items>
