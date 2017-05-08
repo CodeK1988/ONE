@@ -4,6 +4,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.widget.RadioGroup;
 
+import com.jakewharton.rxbinding.widget.RxRadioGroup;
 import com.one.mvp.R;
 import com.one.mvp.model.MainTabContract;
 import com.one.mvp.ui.maintab.fragment.MovieFragment;
@@ -11,6 +12,8 @@ import com.one.mvp.ui.maintab.fragment.MusicFragment;
 import com.one.mvp.ui.maintab.fragment.OneFragment;
 import com.one.mvp.ui.maintab.fragment.ReadingFragment;
 import com.one.mvp.util.FragmentUtils;
+
+import rx.functions.Action1;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -33,22 +36,25 @@ public class MainTabPresenter implements MainTabContract.Presenter {
   public void switchTo() {
     FragmentUtils fragmentUtil = new FragmentUtils(mContext, R.id.view_container);
     fragmentUtil.switchTo(OneFragment.class);
-    radioGroup.setOnCheckedChangeListener((group1, checkedId) -> {
-      switch (checkedId) {
-        case R.id.home_one:
-          fragmentUtil.switchTo(OneFragment.class);
-          break;
-        case R.id.home_reading:
-          fragmentUtil.switchTo(ReadingFragment.class);
-          break;
-        case R.id.home_music:
-          fragmentUtil.switchTo(MusicFragment.class);
-          break;
-        case R.id.home_movie:
-          fragmentUtil.switchTo(MovieFragment.class);
-          break;
-        default:
-          break;
+    RxRadioGroup.checkedChanges(radioGroup).subscribe(new Action1<Integer>() {
+      @Override
+      public void call(Integer integer) {
+        switch (integer) {
+          case R.id.home_one:
+            fragmentUtil.switchTo(OneFragment.class);
+            break;
+          case R.id.home_reading:
+            fragmentUtil.switchTo(ReadingFragment.class);
+            break;
+          case R.id.home_music:
+            fragmentUtil.switchTo(MusicFragment.class);
+            break;
+          case R.id.home_movie:
+            fragmentUtil.switchTo(MovieFragment.class);
+            break;
+          default:
+            break;
+        }
       }
     });
   }
