@@ -1,6 +1,7 @@
 package com.one.mvp.util;
 
 import android.support.annotation.IdRes;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -8,6 +9,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
 import java.util.HashMap;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Created by swplzj on 17/5/4.
@@ -64,5 +67,18 @@ public class FragmentUtils {
             .beginTransaction();
     fragmentTransaction.replace(container, fragment);
     fragmentTransaction.commit();
+  }
+
+  /**
+   *
+   * 单纯添加 用的比较少
+   * The {@code fragment} is added to the container view with id {@code frameId}. The operation is
+   * performed by the {@code fragmentManager}.
+   */
+  public void addFragmentToActivity (@NonNull Fragment fragment, int frameId) {
+    checkNotNull(fragment);
+    FragmentTransaction transaction = manager.beginTransaction();
+    transaction.add(frameId, fragment);
+    transaction.commit();
   }
 }

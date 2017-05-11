@@ -6,5 +6,9 @@ package com.one.mvp.base;
 
 public interface BasePresenter {
 
-  void start();//生命周期
+
+  void subscribe();
+
+  void unsubscribe();
+
 }

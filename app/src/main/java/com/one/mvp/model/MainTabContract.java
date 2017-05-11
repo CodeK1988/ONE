@@ -17,7 +17,12 @@ public class MainTabContract {
   }
 
   public interface Presenter extends BasePresenter {
-    void switchTo();
+
   }
+
+
+  
+
+
 
 }
