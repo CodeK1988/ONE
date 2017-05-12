@@ -16,8 +16,7 @@ import static com.one.mvp.api.config.ConstantApi.APISERVICE_CONFIG;
 
 public class App extends Application {
 
-
-  private AppComponent appComponent;
+  private static AppComponent appComponent;
 
   @Override
   public void onCreate() {
@@ -29,7 +28,7 @@ public class App extends Application {
     appComponent = DaggerAppComponent.builder().netModule(new NetModule(config)).build();
   }
 
-  public AppComponent getAppComponent(){
+  public static AppComponent getAppComponent(){
     return appComponent;
   }
 

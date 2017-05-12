@@ -27,6 +27,8 @@ public abstract class BaseFragment<T extends ViewDataBinding> extends Fragment {
     return inflate.getRoot();
   }
 
+
+
   @LayoutRes
   protected abstract int getLayoutId();
 

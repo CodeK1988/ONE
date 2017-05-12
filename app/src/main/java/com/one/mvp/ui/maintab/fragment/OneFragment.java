@@ -9,8 +9,6 @@ import com.one.mvp.model.ViewPagerContract;
 import com.one.mvp.presenter.ViewPagerPresenter;
 import com.one.mvp.ui.maintab.OneFragmentAdapter;
 
-import java.util.ArrayList;
-
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
@@ -20,6 +18,8 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 
 public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements ViewPagerContract.View{
+
+
 
   @NonNull
   private ViewPagerContract.Presenter mPresenter;
@@ -31,24 +31,18 @@ public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements
 
   @Override
   protected void setupView() {
-
-    ArrayList<String> strings = new ArrayList<>();
-    for (int i = 0; i < 5; i++) {
-      strings.add(i+"");
-    }
-
-    new ViewPagerPresenter(this,strings);
+    new ViewPagerPresenter(getActivity(),this);
   }
-
-
   /**
    *  view
    * @param oneFragmentAdapter
    */
   @Override
-  public void getPagerAdapter(@NonNull OneFragmentAdapter oneFragmentAdapter) {
+  public void setPagerAdapter(@NonNull OneFragmentAdapter oneFragmentAdapter) {
     inflate.viewPager.setAdapter(checkNotNull(oneFragmentAdapter));
   }
+
+
 
 
 
@@ -65,7 +59,6 @@ public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements
     super.onPause();
     mPresenter.unsubscribe();
   }
-
 
   @Override
   public void setPresenter(ViewPagerContract.Presenter presenter) {

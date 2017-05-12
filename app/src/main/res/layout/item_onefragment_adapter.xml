@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RelativeLayout
+        android:id="@+id/bgColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_414141"
+        >
+
+        <!--android:background="@drawable/rect_gray_line"-->
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="fitXY"
+            tools:src="@color/colorPrimary"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_10dp"
+            tools:text="插画 文佳 作品"
+            tools:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAuthor"
+            android:layout_marginBottom="@dimen/margin_50dp"
+            android:layout_marginLeft="@dimen/margin_50dp"
+            android:layout_marginRight="@dimen/margin_50dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:textSize="@dimen/font_14sp"
+            tools:text="又是另一天，平凡无奇。不过幸好，平凡就是我们唯一要走的路。当我们无限小的时候，世界才会特别大。by吕彦斌"
+            tools:textColor="#FFFFFF"
+            />
+    </RelativeLayout>
+</layout>

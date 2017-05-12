@@ -18,6 +18,6 @@ public interface ConstantApi {
   int APISERVICE_CONFIG = 1;
 
   String baseUrl = "http://v3.wufazhuce.com:8000/api/";
-  String homeApi = baseUrl+"hp/more/0?version=v3.5.3";//首页接口
+  String OneFragmentApi = baseUrl+"hp/more/0?version=v3.5.3";//首页接口
 
 }

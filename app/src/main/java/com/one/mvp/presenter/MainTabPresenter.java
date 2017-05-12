@@ -50,7 +50,6 @@ public class MainTabPresenter implements MainTabContract.Presenter {
 
   private void switchTo() {
     FragmentUtils fragmentUtil = new FragmentUtils(mContext, R.id.view_container);
-    fragmentUtil.switchTo(OneFragment.class);
     Subscription subscription = RxRadioGroup.checkedChanges(radioGroup).subscribe(integer -> {
       fragmentUtil.switchTo(switchTo(integer));
     });

@@ -1,86 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        >
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            >
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <RelativeLayout
-                android:id="@+id/contentLayout"
+            <include layout="@layout/layout_titlebar"/>
+
+            <cn.iwgang.familiarrecyclerview.FamiliarRecyclerView
+                android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rect_gray_line"
-                android:padding="8dp"
-                >
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:src="#0ffdf2"
-                    />
-
-                <TextView
-                    android:id="@+id/tvTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/imageView"
-                    android:layout_marginTop="5dp"
-                    android:text="VOL 1403"
-                    android:textSize="@dimen/font_12sp"
-                    />
-
-                <TextView
-                    android:id="@+id/tvAuthor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/imageView"
-                    android:layout_marginTop="5dp"
-                    android:text="XXXX作品"
-                    android:textSize="@dimen/font_12sp"
-                    />
-
-                <TextView
-                    android:id="@+id/tvContent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/tvTitle"
-                    android:layout_marginBottom="50dp"
-                    android:layout_marginTop="20dp"
-                    android:text="又是另一天，平凡无奇。不过幸好，平凡就是我们唯一要走的路。当我们无限小的时候，世界才会特别大。by吕彦斌"
-                    android:textColor="@color/colorBlack"
-                    android:textSize="@dimen/font_14sp"
-                    />
-
-                <TextView
-                    android:id="@+id/tvDate"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/tvContent"
-                    android:text="Tue 09 Aug.2016"
-                    android:textSize="@dimen/font_12sp"
-                    />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/bottomLayout"
-                android:layout_width="match_parent"
-                android:layout_height="77dp"
-                android:layout_below="@id/contentLayout"
-                >
-
-            </RelativeLayout>
-        </RelativeLayout>
+                />
+        </LinearLayout>
 
     </ScrollView>
+
 </layout>

@@ -47,6 +47,8 @@ public class ApiInteractorImpl implements ApiInteractor {
   @Override
   public Subscription getOneHome(String url, BaseSubscribe<String> subscribe) {
     Observable<String> oneHome = apiService.getOneHome(url);
+
+
     Subscription subscription = oneHome.subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .onErrorReturn(throwable -> null)
@@ -56,6 +58,24 @@ public class ApiInteractorImpl implements ApiInteractor {
   }
 
 
+  public static <T> Observable.Transformer<BaseResponse<T>, T> resultHandle(Observable<T> observable) {
+
+    return new Observable.Transformer<BaseResponse<T>, T>() {
+      @Override
+      public Observable<T> call(Observable<BaseResponse<T>> responseObservable) {
+        return responseObservable.flatMap(new Func1<BaseResponse<T>, Observable<T>>() {
+          @Override
+          public Observable<T> call(BaseResponse<T> response) {
+            if (!response.isSuccess()) {
+              throw new ResponseError(response.e);
+            }
+            return returnSource(response.data);
+          }
+        }).subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread());
+      }
+    };
+  }
 
 
   /**
@@ -102,7 +122,6 @@ public class ApiInteractorImpl implements ApiInteractor {
       }
     });
   }
-
 
 
 }

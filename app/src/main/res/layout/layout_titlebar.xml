@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layoutTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:orientation="vertical"
+        android:background="@color/color_414141"
+        app:layout_scrollFlags="scroll|enterAlways"
+        >
+
+        <LinearLayout
+            android:id="@+id/layoutLeft"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingRight="8dp"
+            android:paddingTop="3dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/individual_center"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:text="电影"
+            android:textColor="#FFFFFF"
+            />
+
+        <ImageView
+            android:id="@+id/ivTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/nav_title"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/layoutRight"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/layoutRight"
+            android:layout_toRightOf="@id/layoutLeft"
+            android:background="@color/colorWhite"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:textCursorDrawable="@null"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+</layout>
