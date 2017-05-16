@@ -10,19 +10,11 @@ import com.one.mvp.base.BaseView;
 public class MainTabContract {
 
 
-
   public interface View extends BaseView<Presenter> {
-
-
   }
 
   public interface Presenter extends BasePresenter {
-
   }
-
-
-  
-
 
 
 }

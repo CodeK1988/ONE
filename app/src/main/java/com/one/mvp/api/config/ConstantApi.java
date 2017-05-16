@@ -13,7 +13,7 @@ public interface ConstantApi {
 
   String BaseYoungPath = Environment.getExternalStorageDirectory().getAbsolutePath() + ConstantApi.CachePath;
   String CachePath = "/com.one.mvp";
-  int maxStale = 10 * 1024 * 1024;//缓存10M
+  int maxStale = 10 * 1024 * 1024;//缓存100M
   String responseCode = "9999";//请求成功
   int APISERVICE_CONFIG = 1;
 
