@@ -12,13 +12,11 @@ import com.one.mvp.ui.maintab.OneFragmentAdapter;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- *
- *  一个 首页
+ * 一个 首页
  * Created by swplzj on 17/5/3.
  */
 
-public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements ViewPagerContract.View{
-
+public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements ViewPagerContract.View {
 
 
   @NonNull
@@ -31,21 +29,18 @@ public class OneFragment extends BaseFragment<MainFragmentOneBinding> implements
 
   @Override
   protected void setupView() {
-    new ViewPagerPresenter(getActivity(),this);
+    new ViewPagerPresenter(getActivity(), this);
   }
+
   /**
-   *  view
+   * view
+   *
    * @param oneFragmentAdapter
    */
   @Override
   public void setPagerAdapter(@NonNull OneFragmentAdapter oneFragmentAdapter) {
     inflate.viewPager.setAdapter(checkNotNull(oneFragmentAdapter));
   }
-
-
-
-
-
 
 
   @Override

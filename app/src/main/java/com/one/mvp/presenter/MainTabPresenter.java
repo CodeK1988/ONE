@@ -39,6 +39,7 @@ public class MainTabPresenter implements MainTabContract.Presenter {
 
   @NonNull
   private CompositeSubscription mSubscriptions;
+  private FragmentUtils fragmentUtil;
 
   public MainTabPresenter(@NonNull FragmentActivity mActivity, @NonNull MainTabContract.View view,@NonNull RadioGroup group) {//
     mContext = checkNotNull(mActivity, "FragmentActivity cannot be null!");
@@ -49,7 +50,8 @@ public class MainTabPresenter implements MainTabContract.Presenter {
   }
 
   private void switchTo() {
-    FragmentUtils fragmentUtil = new FragmentUtils(mContext, R.id.view_container);
+    if(fragmentUtil==null)
+    fragmentUtil = new FragmentUtils(mContext, R.id.view_container);
     Subscription subscription = RxRadioGroup.checkedChanges(radioGroup).subscribe(integer -> {
       fragmentUtil.switchTo(switchTo(integer));
     });

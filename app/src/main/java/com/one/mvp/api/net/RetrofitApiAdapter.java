@@ -8,7 +8,7 @@ import com.one.mvp.BuildConfig;
 import com.one.mvp.api.config.ConstantApi;
 import com.one.mvp.api.config.ServiceConfig;
 import com.one.mvp.api.service.ApiService;
-import com.one.mvp.util.HttpUtil;
+import com.one.mvp.util.NetworkUtils;
 
 import java.io.File;
 
@@ -52,12 +52,14 @@ public class RetrofitApiAdapter {
                     .addInterceptor(new HttpLoggingInterceptor().setLevel(BuildConfig.DEBUG ? HEADERS:NONE))
                     .addInterceptor(chain -> {
                       Request request = chain.request();
-                      if(!HttpUtil.isNetworkAvailable(App.getContext())){
+                      if(!NetworkUtils.isNetworkAvailable(App.getContext())){
                         request = request.newBuilder()
                                 .cacheControl(CacheControl.FORCE_CACHE)
                                 .build();
+                        if(BuildConfig.DEBUG)
                         Log.d("RetrofitApiAdapter", "request: no network");
                       }else{
+                        if(BuildConfig.DEBUG)
                         Log.d("RetrofitApiAdapter", "request: else");
                         request = request.newBuilder()
                                 .cacheControl(CacheControl.FORCE_NETWORK)
@@ -65,7 +67,8 @@ public class RetrofitApiAdapter {
                       }
 
                       Response response = chain.proceed(request);
-                      if(HttpUtil.isNetworkAvailable(App.getContext())){
+                      if(NetworkUtils.isNetworkAvailable(App.getContext())){
+                        if(BuildConfig.DEBUG)
                         Log.d("RetrofitApiAdapter", "response: isNetworkAvailable");
                         int maxAge = 0 * 60;
                         response.newBuilder()
@@ -73,6 +76,7 @@ public class RetrofitApiAdapter {
                                 .removeHeader(PRAGMA)
                                 .build();
                       }else{
+                        if(BuildConfig.DEBUG)
                         Log.d("RetrofitApiAdapter", "response: else");
                         int maxStale = 60 * 60 * 24;//网络断开 缓存一天
                         response.newBuilder()
@@ -90,7 +94,7 @@ public class RetrofitApiAdapter {
                               header.contains("must-revalidate") || header.contains("max-age=0")) {
                         return response.newBuilder()
                                 .removeHeader(PRAGMA)
-                                .header(CACHE_CONTROL, "public, max-age=" + 5000)
+                                .header(CACHE_CONTROL, "public, max-age=" + 0)
                                 .build();
                       } else {
                         return response;

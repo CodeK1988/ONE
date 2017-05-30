@@ -9,11 +9,15 @@ import com.one.mvp.databinding.HomeActBinding;
 import com.one.mvp.model.MainTabContract;
 import com.one.mvp.presenter.MainTabPresenter;
 
+import hugo.weaving.DebugLog;
+
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * tab标签页面切换
+ * hugo debug
  */
+@DebugLog
 public class HomeActivity extends BaseActivity<HomeActBinding> implements MainTabContract.View {
 
 
@@ -46,6 +50,9 @@ public class HomeActivity extends BaseActivity<HomeActBinding> implements MainTa
   }
 
 
+  /**
+   *  绑定生命周期
+   */
   @Override
   protected void onResume() {
     super.onResume();
@@ -63,6 +70,8 @@ public class HomeActivity extends BaseActivity<HomeActBinding> implements MainTa
     super.onDestroy();
     mainTabPresenter.unsubscribe();
   }
+
+
 
 
   /**

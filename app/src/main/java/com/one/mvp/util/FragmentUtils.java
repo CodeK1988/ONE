@@ -75,10 +75,10 @@ public class FragmentUtils {
    * The {@code fragment} is added to the container view with id {@code frameId}. The operation is
    * performed by the {@code fragmentManager}.
    */
-  public void addFragmentToActivity (@NonNull Fragment fragment, int frameId) {
-    checkNotNull(fragment);
+  public void addFragmentToActivity (@NonNull Fragment f) {
+    Fragment fragment = checkNotNull(f);
     FragmentTransaction transaction = manager.beginTransaction();
-    transaction.add(frameId, fragment);
+    transaction.add(container, fragment);
     transaction.commit();
   }
 }

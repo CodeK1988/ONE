@@ -33,7 +33,7 @@ public class PicassoUtil {
     ImageView mImageView = checkNotNull(imageView);
     String imgPath = checkNotNull(imagePath);
     final Context context = mImageView.getContext();
-    boolean online = HttpUtil.isConnected(context);
+    boolean online = NetworkUtils.isConnected(context);
     picasso.load(imgPath)
             .placeholder(R.color.colorWhite)
             .networkPolicy(online ? NetworkPolicy.NO_CACHE : NetworkPolicy.OFFLINE)

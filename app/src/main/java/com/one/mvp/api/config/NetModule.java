@@ -18,10 +18,13 @@ public class NetModule {
     this.mConfig = configuration;
   }
 
+  @AppScope
   @Provides
   public ApiInteractor provideHomeInteractor(){
     return new ApiInteractorImpl(mConfig);
   }
+
+
 
 
 }

@@ -97,4 +97,7 @@ public abstract class BasePagerAdapter extends PagerAdapter {
    */
   protected abstract View getView(Object object, View convertView, ViewGroup parent);
 
+
+
+
 }

@@ -41,10 +41,12 @@ public class OneFragmentAdapter<T> extends BasePagerAdapter {
     picassoUtil = new PicassoUtil(mContext);
   }
 
+
   public void setData(List<OneFragmentEntity.DataEntity> list){
     this.mList = list;
     notifyDataSetChanged();
   }
+
 
 
   @Override

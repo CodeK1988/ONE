@@ -18,6 +18,7 @@ public class ApplicationModule {
     mContext = context;
   }
 
+  @AppScope
   @Provides
   Context provideContext(){
     return mContext;

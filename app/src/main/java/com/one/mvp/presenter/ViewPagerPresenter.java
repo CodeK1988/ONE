@@ -10,8 +10,8 @@ import com.one.mvp.App;
 import com.one.mvp.api.config.ConstantApi;
 import com.one.mvp.api.interaction.ApiInteractor;
 import com.one.mvp.base.BaseSubscribe;
-import com.one.mvp.ui.entity.OneFragmentEntity;
 import com.one.mvp.model.ViewPagerContract;
+import com.one.mvp.ui.entity.OneFragmentEntity;
 import com.one.mvp.ui.maintab.OneFragmentAdapter;
 
 import rx.Subscription;
@@ -50,7 +50,7 @@ public class ViewPagerPresenter implements ViewPagerContract.Presenter {
       @Override
       public void onSuccess(String result) {
         Log.d("首页接口", "onSuccess: " + result);
-        if(result!=null){
+        if(result!=null){// // TODO: 17/5/25
           OneFragmentEntity entity = new Gson().fromJson(result, OneFragmentEntity.class);
           mViewPagerContractView.setPagerAdapter(new OneFragmentAdapter(mActivity,entity.getData()));
         }

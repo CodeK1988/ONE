@@ -1,19 +1,17 @@
 package com.one.mvp.api.interaction;
 
+import com.one.mvp.App;
+import com.one.mvp.api.config.RxSchedulers;
 import com.one.mvp.api.config.ServiceConfig;
 import com.one.mvp.api.net.RetrofitApiAdapter;
 import com.one.mvp.api.service.ApiService;
-import com.one.mvp.base.BaseResponse;
 import com.one.mvp.base.BaseSubscribe;
-import com.one.mvp.base.ResponseError;
 
 import javax.inject.Inject;
 
 import rx.Observable;
-import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 import static com.one.mvp.api.config.ConstantApi.APISERVICE_CONFIG;
@@ -26,15 +24,18 @@ public class ApiInteractorImpl implements ApiInteractor {
 
   public static ServiceConfig mConfig;
   private ApiService apiService;
+  RxSchedulers rxSchedulers;
 
   @Inject
   public ApiInteractorImpl(ServiceConfig config) {
     mConfig = config;
+    rxSchedulers = App.getAppComponent().rxSchedulers();
     switch (mConfig.getDataSourceType()){
       case APISERVICE_CONFIG:
         apiService = RetrofitApiAdapter.initService(config);
         break;
       default:
+        break;
     }
   }
 
@@ -47,81 +48,44 @@ public class ApiInteractorImpl implements ApiInteractor {
   @Override
   public Subscription getOneHome(String url, BaseSubscribe<String> subscribe) {
     Observable<String> oneHome = apiService.getOneHome(url);
-
-
-    Subscription subscription = oneHome.subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .onErrorReturn(throwable -> null)
-           // .compose(resultHandle())
+    Subscription subscription = oneHome
+            .compose(applySchedulers())
             .subscribe(subscribe);
     return subscription;
   }
 
 
-  public static <T> Observable.Transformer<BaseResponse<T>, T> resultHandle(Observable<T> observable) {
 
-    return new Observable.Transformer<BaseResponse<T>, T>() {
-      @Override
-      public Observable<T> call(Observable<BaseResponse<T>> responseObservable) {
-        return responseObservable.flatMap(new Func1<BaseResponse<T>, Observable<T>>() {
-          @Override
-          public Observable<T> call(BaseResponse<T> response) {
-            if (!response.isSuccess()) {
-              throw new ResponseError(response.e);
-            }
-            return returnSource(response.data);
-          }
-        }).subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
-      }
-    };
+
+
+  /**
+   * 常见到这种方式 不建议 这么做
+   */
+  <T> Observable<T> applySchedulers(Observable<T> observable) {
+    return observable.subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread());
   }
 
 
   /**
-   * @param <T>
-   * @return
+   *   compose() is the only way to get the original Observable<T> from the stream.
+   *   Therefore, operators that affect the whole stream (like subscribeOn() and observeOn())
+   *   need to use compose()
+   *
+   *   这里不推荐使用 flatMap()
+   *
+   *   from http://blog.danlew.net/2015/03/02/dont-break-the-chain/
    */
-  public static <T> Observable.Transformer<BaseResponse<T>, T> resultHandle() {
 
-    return new Observable.Transformer<BaseResponse<T>, T>() {
-      @Override
-      public Observable<T> call(Observable<BaseResponse<T>> responseObservable) {
-        return responseObservable.flatMap(new Func1<BaseResponse<T>, Observable<T>>() {
-          @Override
-          public Observable<T> call(BaseResponse<T> response) {
-            if (!response.isSuccess()) {
-              throw new ResponseError(response.e);
-            }
-            return returnSource(response.data);
-          }
-        }).subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
-      }
-    };
+  @SuppressWarnings("unchecked")
+  <T> Observable.Transformer<T,T> applySchedulers(){
+    return observable -> observable.subscribeOn(rxSchedulers.io())
+            .observeOn(rxSchedulers.mainThread())
+            .onErrorReturn(throwable -> null); //// TODO: 17/5/24
   }
 
-  /**
-   * 分发 处理数据
-   * @param data
-   * @param <T>
-   * @return
-   */
-  private static <T> Observable<T> returnSource(final T data) {
 
-    return Observable.create(new Observable.OnSubscribe<T>() {
-      @Override
-      public void call(Subscriber<? super T> subscriber) {
-        try {
-          subscriber.onNext(data);
-          subscriber.onCompleted();
-        } catch (Exception e) {
-          subscriber.onError(e);
-        }
 
-      }
-    });
-  }
 
 
 }
