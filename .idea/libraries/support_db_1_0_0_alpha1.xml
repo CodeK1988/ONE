@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-db-1.0.0-alpha1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db/1.0.0-alpha1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db/1.0.0-alpha1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/support-db/1.0.0-alpha1/ceb296e48d639e5484c6dfc6436fff3114dfe3ac/support-db-1.0.0-alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

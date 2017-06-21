@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="1_runtime-1.0.0-alpha1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/android.arch.persistence.room/runtime/1.0.0-alpha1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/android.arch.persistence.room/runtime/1.0.0-alpha1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/runtime/1.0.0-alpha1/26041b28cc31127b78a1fede150fade4f1f5769/runtime-1.0.0-alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

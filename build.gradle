@@ -40,7 +40,7 @@ task wrapper(type: Wrapper) {
 
 ext {
     buildToolsVersion = "25.0.2"
-    supportLibVersion = "25.2.0"
+    supportLibVersion = "25.3.1"
 
     archLifecycleVersion = "1.0.0-alpha1"
     archRoomVersion = "1.0.0-alpha1"
