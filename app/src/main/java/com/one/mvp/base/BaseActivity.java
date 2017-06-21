@@ -1,11 +1,11 @@
 package com.one.mvp.base;
 
+import android.arch.lifecycle.LifecycleActivity;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.InflateException;
 
 import com.one.mvp.App;
@@ -16,7 +16,7 @@ import com.one.mvp.api.interaction.ApiInteractor;
  * Created by swplzj on 17/5/2.
  */
 
-public abstract class BaseActivity<T extends ViewDataBinding> extends AppCompatActivity{
+public abstract class BaseActivity<T extends ViewDataBinding> extends LifecycleActivity{
 
   protected T mBinding;
   protected ApiInteractor api;

@@ -16,6 +16,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * Created by swplzj on 17/5/4.
  */
 
+
 public class FragmentUtils {
 
   private final HashMap<String, Fragment> fragments = new HashMap<>();
@@ -39,6 +40,7 @@ public class FragmentUtils {
    */
   public void switchTo(Class<? extends Fragment> fragment) {
     String name = fragment.getName();
+
     if (null != current) {
       manager.beginTransaction().hide(fragments.get(current)).commit();
     }
@@ -53,6 +55,8 @@ public class FragmentUtils {
 
     current = name;
   }
+
+
 
   @Nullable
   public Fragment getFragment(Class<? extends Fragment> fragment) {

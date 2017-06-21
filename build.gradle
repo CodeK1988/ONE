@@ -3,6 +3,7 @@
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
@@ -13,6 +14,9 @@ buildscript {
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'me.tatarka:gradle-retrolambda:3.2.5'
         classpath 'me.tatarka.retrolambda.projectlombok:lombok.ast:0.2.3.a2'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+        classpath 'com.tencent.bugly:tinker-support:1.0.7'
+        classpath 'com.meituan.android.walle:plugin:1.1.3'
     }
     configurations.classpath.exclude group: 'com.android.tools.external.lombok'
 }
@@ -20,9 +24,25 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14.1'
+}
+
+ext {
+    buildToolsVersion = "25.0.2"
+    supportLibVersion = "25.2.0"
+
+    archLifecycleVersion = "1.0.0-alpha1"
+    archRoomVersion = "1.0.0-alpha1"
+
 }

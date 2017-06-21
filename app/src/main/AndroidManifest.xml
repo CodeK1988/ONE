@@ -28,7 +28,7 @@
 
 
         <activity android:name=".ui.basicSample.activity.BasicSampleActivity"/>
-
+        <activity android:name=".ui.maintab.activity.TestActivity"/>
 
 
     </application>

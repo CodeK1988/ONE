@@ -1,15 +1,11 @@
 package com.one.mvp.ui.basicSample.fragment;
 
-import android.arch.lifecycle.LifecycleFragment;
 import android.arch.lifecycle.ViewModelProviders;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.one.mvp.R;
+import com.one.mvp.base.BaseFragment;
 import com.one.mvp.databinding.MainFragmentOneBinding;
 import com.one.mvp.ui.entity.OneFragmentEntity;
 import com.one.mvp.ui.maintab.OneFragmentAdapter;
@@ -24,21 +20,20 @@ import hugo.weaving.DebugLog;
  */
 
 @DebugLog
-public class SampleReadingFragment extends LifecycleFragment {
+public class SampleReadingFragment extends BaseFragment<MainFragmentOneBinding> {
 
-  private MainFragmentOneBinding mBinding;
-  private List<OneFragmentEntity.DataEntity> mList=null;
+  private List<OneFragmentEntity.DataEntity> mList = null;
   private OneFragmentAdapter fragmentAdapter;
 
-  @Nullable
   @Override
-  public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-    mBinding = DataBindingUtil.inflate(inflater, R.layout.main_fragment_one, container, false);
+  protected int getLayoutId() {
+    return R.layout.main_fragment_one;
+  }
 
+  @Override
+  protected void setupView() {
     fragmentAdapter = new OneFragmentAdapter(getActivity(), mList);
-    mBinding.viewPager.setAdapter(fragmentAdapter);
-
-    return mBinding.getRoot();
+    inflate.viewPager.setAdapter(fragmentAdapter);
   }
 
 
@@ -51,7 +46,7 @@ public class SampleReadingFragment extends LifecycleFragment {
 
   private void subscribeUi(SampleReadingViewModel viewModel) {
     viewModel.getData().observe(this, dataEntities -> {
-      if(dataEntities!=null){
+      if (dataEntities != null) {
         mList = dataEntities;
         fragmentAdapter.setData(mList);
       }

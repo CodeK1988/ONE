@@ -1,11 +1,11 @@
 package com.one.mvp.base;
 
+import android.arch.lifecycle.LifecycleFragment;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +14,7 @@ import android.view.ViewGroup;
  * Created by swplzj on 17/5/3.
  */
 
-public abstract class BaseFragment<T extends ViewDataBinding> extends Fragment {
+public abstract class BaseFragment<T extends ViewDataBinding> extends LifecycleFragment {
 
 
   protected T inflate;

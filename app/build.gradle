@@ -21,12 +21,7 @@ android {
         // 开启multidex
         multiDexEnabled true
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
+
 
     lintOptions {
         checkReleaseBuilds false
@@ -53,44 +48,37 @@ android {
     }
 
     // 签名配置
-    /*signingConfigs {
-        release {
+    signingConfigs {
+        one {
             try {
-                storeFile file("./keystore/release.keystore")
-                storePassword "testres"
-                keyAlias "testres"
-                keyPassword "testres"
+                storeFile file("../android.jks")
+                storePassword "android"
+                keyAlias "android"
+                keyPassword "android"
             } catch (ex) {
                 throw new InvalidUserDataException(ex.toString())
             }
         }
 
-        debug {
-            storeFile file("./keystore/debug.keystore")
-        }
-    }*/
+    }
 
 
     buildTypes {
         //压缩资源减少apk体积
         release {
             buildConfigField "boolean", "LOG_DEBUG", "false"
-
-            minifyEnabled true//开启混淆
-            zipAlignEnabled true
-            shrinkResources true//删除没用的资源
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            //    signingConfig signingConfigs.release
+            signingConfig signingConfigs.one
         }
         debug {
             buildConfigField "boolean", "LOG_DEBUG", "true"
 
             debuggable true
-            minifyEnabled false
+            minifyEnabled false//开启混淆
             zipAlignEnabled false
-            shrinkResources false
+            shrinkResources false//删除没用的资源
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            //    signingConfig signingConfigs.debug
+            signingConfig signingConfigs.one
         }
     }
 
@@ -152,4 +140,5 @@ dependencies {
     compile 'android.arch.persistence.room:runtime:' + rootProject.archRoomVersion;
     annotationProcessor "android.arch.lifecycle:compiler:" + rootProject.archLifecycleVersion;
     annotationProcessor "android.arch.persistence.room:compiler:" + rootProject.archRoomVersion;
+    compile 'com.irozon.sneaker:sneaker:1.0.0'
 }

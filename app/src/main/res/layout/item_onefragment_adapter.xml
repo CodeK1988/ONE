@@ -34,12 +34,13 @@
 
             />
 
+        <!--部分三星手机不支持 android:layout_marginBottom-->
         <TextView
             android:id="@+id/tvContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvAuthor"
-            android:layout_marginBottom="@dimen/margin_50dp"
+            android:paddingBottom="@dimen/margin_50dp"
             android:layout_marginLeft="@dimen/margin_50dp"
             android:layout_marginRight="@dimen/margin_50dp"
             android:layout_marginTop="@dimen/margin_20dp"

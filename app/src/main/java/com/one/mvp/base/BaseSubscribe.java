@@ -19,6 +19,7 @@ public abstract class BaseSubscribe<T> extends Subscriber<T> {
     super.onStart();
     if(!NetworkUtils.isNetworkAvailable(App.getContext())){
       Toast.makeText(App.getContext(), "当前网络不可用，请检查网络情况~", Toast.LENGTH_SHORT).show();
+     // Sneaker.with(Activity).setTitle("Error!").setMessage("network bad~").sneakError();
       onCompleted();
       return;
     }

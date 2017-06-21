@@ -66,7 +66,7 @@ public class App extends Application {
       @Override
       public void onPatchReceived(String patchFileUrl) {
         Toast.makeText(getApplicationContext(), patchFileUrl, Toast.LENGTH_SHORT).show();
-        Log.d("BetaPatchListener", "onPatchReceived: patchFileUrl="+patchFileUrl);
+        Log.d("BetaPatchListener", "onPatchReceived: patchFileUrl=" + patchFileUrl);
       }
 
       @Override
@@ -75,32 +75,32 @@ public class App extends Application {
                 "%s %d%%",
                 Beta.strNotificationDownloading,
                 (int) (totalLength == 0 ? 0 : savedLength * 100 / totalLength)), Toast.LENGTH_SHORT).show();
-        Log.d("BetaPatchListener", "onDownloadReceived: savedLength="+savedLength+",totalLength="+totalLength);
+        Log.d("BetaPatchListener", "onDownloadReceived: savedLength=" + savedLength + ",totalLength=" + totalLength);
       }
 
       @Override
       public void onDownloadSuccess(String patchFilePath) {
         Toast.makeText(getApplicationContext(), patchFilePath, Toast.LENGTH_SHORT).show();
 //                Beta.applyDownloadedPatch();
-        Log.d("BetaPatchListener", "onDownloadSuccess: "+patchFilePath);
+        Log.d("BetaPatchListener", "onDownloadSuccess: " + patchFilePath);
       }
 
       @Override
       public void onDownloadFailure(String msg) {
         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
-        Log.d("BetaPatchListener", "onDownloadFailure: "+msg);
+        Log.d("BetaPatchListener", "onDownloadFailure: " + msg);
       }
 
       @Override
       public void onApplySuccess(String msg) {
         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
-        Log.d("BetaPatchListener", "onApplySuccess: "+msg);
+        Log.d("BetaPatchListener", "onApplySuccess: " + msg);
       }
 
       @Override
       public void onApplyFailure(String msg) {
         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
-        Log.d("BetaPatchListener", "onApplyFailure: "+msg);
+        Log.d("BetaPatchListener", "onApplyFailure: " + msg);
       }
 
       @Override
@@ -117,7 +117,6 @@ public class App extends Application {
     Log.e("init time--->", end - start + "ms");
 
   }
-
 
 
   @TargetApi(9)
@@ -140,21 +139,19 @@ public class App extends Application {
    */
   protected static AppComponent appComponent;
 
-  public static AppComponent getAppComponent(){
+  public static AppComponent getAppComponent() {
     return appComponent;
   }
 
 
-
-
-
   /**
    * 强制  sp  字体不随系统改变而改变
+   *
    * @param newConfig
    */
   @Override
   public void onConfigurationChanged(Configuration newConfig) {
-    if(newConfig.fontScale !=1 ){
+    if (newConfig.fontScale != 1) {
       getResources();
     }
     super.onConfigurationChanged(newConfig);
@@ -163,7 +160,7 @@ public class App extends Application {
   @Override
   public Resources getResources() {
     Resources res = super.getResources();
-    if(res.getConfiguration().fontScale != 1){
+    if (res.getConfiguration().fontScale != 1) {
       Configuration newConfig = new Configuration();
       newConfig.setToDefaults();
       res.updateConfiguration(newConfig, res.getDisplayMetrics());//默认

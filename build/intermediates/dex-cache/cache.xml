@@ -12,12 +12,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_b032fcf9d23a7890dff048fba86878fd6913b926/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_ec6536b620fdd48e6872552d5ba6d2fbcb3a3e11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
         <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_5070d35f7de270e7e54822c3e74fd14e0020c027/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_61615ee0940d92e289822e93456967192943f3ae/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.irozon.sneaker/sneaker/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92b46e3539b6169cff855244901f1acb13f6dd">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.irozon.sneaker-sneaker-1.0.0_d460ac284c9ddd93e21165142bf64e768ecc4365/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="true"
         optimize="true"
@@ -48,66 +84,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_459365d92eb35ec9771c57d7719785f4174feb1e/classes.dex" />
+        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/aspectjrt-1.8.5_8fa0cc03e13283b2685b2e68066d68d69ec0f08f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.persistence.room/runtime/1.0.0-alpha1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_2c34d7dc770d866648c58940f8deac444263fa7e/classes.dex" />
+        sha1="f80ef3e88d53cd67f09ae860e9e95967108f5cb2">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.persistence.room-runtime-1.0.0-alpha1_207982704067da76ffebfd284a92e58f38e56876/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_3f7ea2818b3387c8b3892921a4071be5a91275af/classes.dex" />
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_ea8d63f8927410fda47f83eb68889d0130bd1e51/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b98ce5e9e4074bd096ab936ae8a2a965385cac9c">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_87f5afc6fc567d262fb5d29657bc437e889c5e26/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_8142980cc001f46831a2cdca2c1a06a501e64bf2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_92b008de852f8a786dcde42815c349a87d41831b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2f98548790c51f1e555ec0edeca543be62178afd">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2eab8e7f231873f85f297a8ea54bd2437fa4c316/classes.dex" />
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/hugo-annotations-1.2.1_dc345560e18e41b32e0c560bee8cd4aee8d867c6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +129,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/swplzj/Documents/swplzj/work/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_dc1df13fe39be921174edd5d8073a587aa0b1bc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,21 +147,48 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.0.0-alpha1/4fb1be8519a8e9d931945beaee734dd7c1691462/common-1.0.0-alpha1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_0ab582bfd8d84e58d6995a11dc2c49e3f2bc6361/classes.dex" />
+        sha1="4fb1be8519a8e9d931945beaee734dd7c1691462">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0-alpha1_7c7f1548634892542d8e8973c14438dba99acc4a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions/rxpermissions/0.9.1/jars/classes.jar"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.lifecycle/extensions/1.0.0-alpha1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="38115c69562d4087564afb177e2a971aa95a1a46">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.tbruyelle.rxpermissions-rxpermissions-0.9.1_e8d07839fb62357eaf6784a5878d24611a5ab2d0/classes.dex" />
+        sha1="ba181b635dc40ba213e382e67397df779f7665b7">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.lifecycle-extensions-1.0.0-alpha1_f96a3b6de3b464b76800fbe616163f2cc2d0d137/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.meituan.android.walle/library/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0888d257c0efc27e84ee8a8a3caaef0b9c3f21d">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.meituan.android.walle-library-1.1.3_6a9d634a47d9e78890f44b5cb04470bc9dd9f395/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton.hugo-hugo-runtime-1.2.1_83e62efd073a519365280e030c322f29bee02738/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_65e001df5fc37d9a0b396180cfd24ef9e55e2d0e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,6 +210,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0-alpha1/dddb0f589fc65ed3a262d1a90f4d61af6891776a/common-1.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dddb0f589fc65ed3a262d1a90f4d61af6891776a">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0-alpha1_fb8ac9ad757c0b95f02efdce974a59e8af86381d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -180,6 +234,195 @@
         revision="25.0.2"
         sha1="87ac447a67b050a25a4c9611a254f042166df9f2">
         <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-scalars-2.1.0_25f276f0077f33ba1434a61e83ef00e3b3d845ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ca559b8c5ff0711072d50d52581001494420e0d">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.lifecycle-runtime-1.0.0-alpha1_cbb725b555dd9637683dbdafd758ccabedb47461/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.minimize.android/rxrecycler-adapter/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a96f6c9f60cea3f036f779bfd7333efd569b02d2">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.minimize.android-rxrecycler-adapter-1.2.2_38fba780ca4be1304e5b923d6b0206e28d0a63f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2417d491a6fa87a0e74909e1d6c57a60a7658887">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_20d50577697e4a9133351322e2c38c84a97feaf0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.tencent.bugly/crashreport_upgrade/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5743268f3a177e4256453dfec5607ae0896b6f29">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.tencent.bugly-crashreport_upgrade-1.3.0_a550de13f2c25852a63791a7ff8fabfcbe0df82a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_cf7efcf3652a149a55b7bf5c4c59d83cd8b7575d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.7/f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb/dagger-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.7_421ded2752041ba0b3e063cf9fba86738c711826/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.3/baseLibrary-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_568ef70086115475fa9b8ce33d0d7a0e7623dec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.core/core/1.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8aa1017a9d855f7071d9f47ae563f1dc45730b74">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.core-core-1.0.0-alpha1_6d8cc454434a40f7d443371fb68683017f1ffe3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_a3a2d502e4960693a71610703fbcad95d78e93d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_915435551bb0c2d2ee6dac443e3dc1518725c4ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_6cc7e3294052b5942e6a0fa3c6232e3bed153dce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_9722e111330a664880e01103ae04f6dd0f4f9476/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_a8cb62f3fdf340a368242447d64513633303f0ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07399d9882247c8e724de682a12a55d1ddfdeb29">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_87f5afc6fc567d262fb5d29657bc437e889c5e26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef2bf739b45837c2d3e667f4a8e8520e420dc00">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2eab8e7f231873f85f297a8ea54bd2437fa4c316/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.github.iwgang/familiarrecyclerview/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42ecc76e2a07f05c41c6d68a8d6af0e7ff9c95fa">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.iwgang-familiarrecyclerview-1.3.0_b529add88843d66344ee322f5a930b3ca9a07d61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions/rxpermissions/0.9.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38115c69562d4087564afb177e2a971aa95a1a46">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.tbruyelle.rxpermissions-rxpermissions-0.9.1_e8d07839fb62357eaf6784a5878d24611a5ab2d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_ed01a7a3156aba64f349cc818b9ba67d6f651de9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db/1.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd57e6d90e63921172b30ca28af527267e6d213d">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.persistence.room-support-db-1.0.0-alpha1_bb5b8c14780703a2b92259932a159b037e416b3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_4cadc0e98560597b7659ba2789c5a178fb351d0b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,48 +453,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_75a9c9832995dca825b8b4dbe449027aa308143b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-26.0.0-alpha1_29739a2f71755f8711d3391a193479a6951414c7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-26.0.0-alpha1_33f62895e5c83364dcd692ede2b31ef8da1fdf06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="32e12e6cab98b4c8d59fafe3abee510dc9d6192b">
         <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_d99842491097413e3104bef43dd4f8db155f5078/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2417d491a6fa87a0e74909e1d6c57a60a7658887">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_20d50577697e4a9133351322e2c38c84a97feaf0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -273,15 +480,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_1b431c0f998c3026d3bf1aac1adc3678830e84a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
         jumboMode="true"
         optimize="true"
@@ -291,21 +489,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.7/f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb/dagger-2.7.jar"
+        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db-impl/1.0.0-alpha1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.7_421ded2752041ba0b3e063cf9fba86738c711826/classes.dex" />
+        sha1="13b31fe5f2e97c9fa36b4716cf32c59afb5603b4">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/android.arch.persistence.room-support-db-impl-1.0.0-alpha1_49a4e8ef11c9e4ff802de74e93c0d9bc65c153f4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.3/baseLibrary-2.2.3.jar"
+        jar="/Users/swplzj/.gradle/caches/modules-2/files-2.1/com.meituan.android.walle/payload_reader/1.1.3/bc25e0a73689e891ae5837673d058e5ed84b14cf/payload_reader-1.1.3.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
+        sha1="bc25e0a73689e891ae5837673d058e5ed84b14cf">
+        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/payload_reader-1.1.3_771f84848c6f9adc9b9f2054c1ae7d9548ae6852/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -315,24 +513,6 @@
         revision="25.0.2"
         sha1="2cb654c01ce17fe865fe1bcf4aaf2f33bc770921">
         <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_292e1d70adb6b4e29cbd79be9fea824731be9a39/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/save/ONE/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-26.0.0-alpha1_bbb2c966cfa1b66b60ba084a0247edba46caddab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/swplzj/Documents/swplzj/work/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/swplzj/Documents/save/ONE/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_6a6e27987218ce2a811c7df1f25459744138b4c2/classes.dex" />
     </item>
 
 </items>
