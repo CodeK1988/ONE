@@ -134,7 +134,6 @@ dependencies {
     //compile 'com.facebook.yoga.android:yoga-layout:1.5.1-SNAPSHOT'
     //Log
     //compile 'com.jakewharton.timber:timber:4.5.1'
-
     // For Lifecycles, LiveData, and ViewModel Room
     compile 'android.arch.lifecycle:extensions:' + rootProject.archLifecycleVersion;
     compile 'android.arch.persistence.room:runtime:' + rootProject.archRoomVersion;
