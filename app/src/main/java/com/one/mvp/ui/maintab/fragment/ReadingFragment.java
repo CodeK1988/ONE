@@ -1,10 +1,10 @@
 package com.one.mvp.ui.maintab.fragment;
 
-import android.content.Intent;
+import android.util.Log;
 
 import com.one.mvp.R;
 import com.one.mvp.base.BaseFragment;
-import com.one.mvp.ui.maintab.activity.TestActivity;
+import com.one.mvp.databinding.MainFragmentReadingBinding;
 import com.one.mvp.util.FragmentUtils;
 
 import hugo.weaving.DebugLog;
@@ -13,7 +13,7 @@ import hugo.weaving.DebugLog;
  * Created by swplzj on 17/5/4.
  */
 @DebugLog
-public class ReadingFragment extends BaseFragment {
+public class ReadingFragment extends BaseFragment<MainFragmentReadingBinding> {
 
 
   private FragmentUtils fragmentUtil;
@@ -25,12 +25,21 @@ public class ReadingFragment extends BaseFragment {
 
   @Override
   protected void setupView() { // 想在fragment中打开 fragment
+
+
 //    if(fragmentUtil==null)
 //    fragmentUtil = new FragmentUtils(getActivity(), R.id.view_container);
 //    fragmentUtil.switchTo(SampleReadingFragment.class);
 
-    startActivity(new Intent(getActivity(), TestActivity.class));
+//    startActivity(new Intent(getActivity(), TestActivity.class));
+    inflate.helloJni.setText(SayHello());
+
   }
 
+  public native String SayHello();
+
+  static {
+    System.loadLibrary("helloJni");
+  }
 
 }

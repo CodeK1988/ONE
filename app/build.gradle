@@ -3,17 +3,18 @@ apply plugin: 'me.tatarka.retrolambda'
 apply plugin: 'com.neenbedankt.android-apt'//dagger2注解自动生成代码
 apply plugin: 'com.jakewharton.hugo'//DebugLog 工具
 android {
-    compileSdkVersion 25
+    compileSdkVersion 24
     buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
         applicationId "com.one.mvp"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 24
         versionCode 1
         versionName "1.01"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         ndk {
+            moduleName "helloJni"
             //设置支持的SO库架构
             abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
         }
@@ -83,6 +84,7 @@ android {
     }
 
 
+    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jni/'] } }
 }
 
 
