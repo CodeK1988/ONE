@@ -142,4 +142,6 @@ dependencies {
     annotationProcessor "android.arch.lifecycle:compiler:" + rootProject.archLifecycleVersion;
     annotationProcessor "android.arch.persistence.room:compiler:" + rootProject.archRoomVersion;
     compile 'com.irozon.sneaker:sneaker:1.0.0'
+    //百分比布局
+    compile 'com.zhy:percent-support-extends:1.1.1'
 }
