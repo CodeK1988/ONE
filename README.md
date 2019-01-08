@@ -9,4 +9,7 @@
 在 fragment继承Control.View接口。代码更优雅。惭愧之前的理解并不深入，所幸这个项目纯粹用于个人学习。
 521039620 我的QQ群，想给我学习建议或者技术交流的话 加我QQ 1831808374 。谢谢~ 
 
+##### 2019/0108
+可参考 https://github.com/yizuochengchi/One2.git
+
 
