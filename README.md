@@ -12,4 +12,11 @@
 ##### 2019/0108
 可参考 https://github.com/yizuochengchi/One2.git
 
+#### 2019/08/01
+时光荏苒 回头看已过了半载 
+mvp模式实际上并不好用
+google[android-architecture-components](https://github.com/googlesamples/android-architecture-components)
 
+最近重写数据库用到
+listadapter+room+viewmodel 真酸爽。
+mvvm才是正解。
